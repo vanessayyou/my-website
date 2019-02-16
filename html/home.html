@@ -6,6 +6,16 @@
     <title>Yuzhe (Vanessa) You</title>
     <style>
 
+    .content {
+      display: flex;
+    }
+    .content img {
+      margin-right: 10px;
+     display: block;
+    }
+
+    .content h3,
+    .content p {margin: 0;}
 
     h2 {
       line-height: 3px;
@@ -16,6 +26,11 @@
       padding: 3px;
       line-height: 0px;
       font-family: Helvetica;
+    }
+
+    /* paragraph styling */
+    p {
+      font-family: Tahoma;
     }
 
     /* background color */
@@ -52,11 +67,24 @@
       color: white;
     }
 
+    /* self-introduction */
+    #self-introduction {
+      background-color: #546D6D;
+      color: #E4ECEC;
+      font-size: 20px;
+      text-height: 25px;
+      padding: 20px;
+    }
+
+    #heads {
+      opacity: 0.8;
+    }
+
 
 
     </style>
   </head>
-  <body bgcolor="#8DB1A8">
+  <body bgcolor="#6C908F">
 
 <header>
   <h2><strong>Yuzhe (Vanessa) You</strong></h2>
@@ -68,6 +96,7 @@
   <li><a href="#home" class="w3-button w3-bar-item">Home</a></li>
   <li><a href="#game" class="w3-button w3-bar-item">My Games</a></li>
   <li><a href="#project" class="w3-button w3-bar-item">My Projects</a></li>
+  <li><a href="#art" class="w3-button w3-bar-item">My Artworks/Musics</a></li>
   <li><a href="#resume" class="w3-button w3-bar-item">Resume</a></li>
   <li><a href="#contact" class="w3-button w3-bar-item">Contact</a></li>
 </ul>
@@ -76,6 +105,33 @@
 <section>
   <img class = "header picture" src="../img/Feature graphic.png" style="width:100%">
 </section>
+
+<!-- Self-introduction -->
+<section id = "self-introduction">
+<div class = "content">
+  <img class = "linkedin picture" src="../img/linkedin.png"> 
+  <div class = "about">
+  <p> Hi, my name is Yuzhe (Vanessa) You. </p>
+  <br>
+  <p> I am a sophmore currently studying Computer Science at University of Michigan, Ann arbor. </p>
+  <br>
+  <p> My coding skills include C++/C, Python, Javascript, HTML, CSS, R/RStudio, Lua and more.</p>
+  <br>
+  <p> I am currently doing research as a member of SOCR team under University of Michigan's Multidisciplinary Design Program, with my focus being Data Analytics and Machine Learning. </p>
+  </div>
+</div>
+<div class = "about">
+  <p> I have also been actively working on my own projects outside my classrooms and have published two of my games as an independent game developer (both as the programmer and the graphic designer). Sometimes I release my games under my pseudo-name 吴德者Dino. </p>
+  <p> Besides programming, I also like to make art and music at my spare time. </p>
+  <p> I designed all characters/graphics/game scenes and composed most of the background music for my two games "Vincent's Amazing World of Scary Human Heads" and "Vincent: Phantom of the G4 (文森：G4人偶事件)."</p>
+  <p> My favorite Smash characters include Link, Lucina and Corrin, even though it would be Waluigi if he is in Smash. </p>
+  <p> Please feel free to check out my games and projects (or maybe even my art and music!) and email me if you have any further questions. </p>
+</div>
+</section>
+
+<div id = "heads">
+  <img class = "head pcitures" src="../img/Feature graphic head.png" style = "width: 100%">
+</div>
 
   </body>
 </html>
