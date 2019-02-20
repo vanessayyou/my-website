@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Yuzhe (Vanessa) You</title>
+    <link href='https://fonts.googleapis.com/css?family=Oswald:500' rel='stylesheet' type='text/css'>
+    <style type = "text/css">
+
+
+    .content {
+      display: flex;
+    }
+    .content img {
+      margin-right: 10px;
+     display: block;
+    }
+
+    .content h3,
+    .content p {margin: 0;}
+
+    h2 {
+      line-height: 3px;
+      font-family: Impact;
+    }
+    h3 {
+      font-size: 28px;
+      padding: 3px;
+      line-height: 0px;
+      font-family: Helvetica;
+    }
+
+    /* paragraph styling (Tahoma)*/
+    p {
+    }
+
+    /* background color */
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #6DA186;
+    }
+    li {
+        float: left;
+
+    }
+    /* navigation bar */
+    li a {
+      display: inline-block;
+      color: white;
+      text_align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-family: Helvetica;
+    }
+    li a:hover {
+      background-color: #41593D;
+    }
+
+    /* style the header (my name) */
+    header {
+      background-color: #6DA186;
+      padding: 290px;
+      text-align:center;
+      font-size: 35px;
+      color: white;
+    }
+
+    /* self-introduction */
+    #self-introduction {
+      background-color: #546D6D;
+      color: #E4ECEC;
+      font-size: 20px;
+      text-height: 25px;
+      padding: 20px;
+
+    }
+
+    #self-introduction-2 {
+      background-color: #CD6B8D;
+      color: white;
+      font-size: 20px;
+      text-height: 25px;
+      padding: 20px;
+
+    }
+
+    #self-introduction-3 {
+      background-color: #6DA186;
+      color: white;
+      font-size: 20px;
+      text-height: 25px;
+      padding: 20px;
+
+    }
+
+    /* head banner at the end of the page */
+    #heads {
+      opacity: 0.9;
+    }
+
+    /* hover image */
+    .container {
+      position: relative;
+      width: 100%;
+    }
+
+    .header-picture {
+      display: block;
+      width: 100%;
+      height: auto;
+    }
+    .overlay {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      height: 100%;
+      width: 100%;
+      opacity: 0;
+      transition: 0.6s ease;
+      background-color: black;
+    }
+
+    .container:hover .overlay {
+      opacity: 0.7;
+    }
+
+    .container:hover .header-picture {
+      opacity:0.4;
+    }
+
+    .text {
+      color: white;
+      font-size: 40px;
+      font-family: Oswald;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+      text-align: center;
+    }
+
+    .hover-description {
+      font-size: 20px;
+    }
+
+
+
+    </style>
+  </head>
+  <body bgcolor="#6C908F">
+
+<div id = "home">
+<header>
+  <h2><strong>Yuzhe (Vanessa) You</strong></h2>
+  <h3>University of Michigan, Ann Arbor</h3>
+</header>
+</div>
+
+  <!-- Navigation -->
+<ul>
+  <li><a href="#home" class="w3-button w3-bar-item">Home</a></li>
+  <li><a href="html/games.html" class="w3-button w3-bar-item">My Games/Projects</a></li>
+  <li><a href="#art" class="w3-button w3-bar-item">My Artworks/Musics</a></li>
+  <li><a href="#resume" class="w3-button w3-bar-item">Resume</a></li>
+  <li><a href="html/contact.html" class="w3-button w3-bar-item">Contact</a></li>
+</ul>
+
+<!-- Header Picture -->
+<section>
+<div class = "container">
+  <img class = "header-picture" src="img/Feature graphic.png" style="width:100%">
+  <div class = "overlay">
+    <div class = "text">
+    <p>"Vincent's Amazing World of Scary Human Heads"</p>
+    <p class = "hover-description"> My first published game; available on Apple Store, Google Play and Taptap </p>
+    <p class = "hover-description"> Read more about my games and projects <a href = "games.html"> HERE </a> </p>
+    </div>
+  </div>
+</div>
+</section>
+
+<!-- Self-introduction -->
+<section id = "self-introduction">
+<div class = "content">
+  <img class = "linkedin picture" src="img/linkedin.png"> 
+  <div class = "about">
+  <br>
+  <h3> ABOUT ME </h3>
+  <br>
+  <p> Hi, my name is Yuzhe (Vanessa) You. </p>
+  <p> I am a sophmore currently studying Computer Science at University of Michigan, Ann Arbor. </p>
+  <br>
+  <p> My coding skills include C++/C, Python, Javascript, HTML, CSS, R/RStudio, Lua and more.</p>
+  <br>
+  <p> I am currently taking various EECS courses at my university and doing research as a member of SOCR team under University of Michigan's Multidisciplinary Design Program, with my focus being Data Analytics and Machine Learning. </p>
+  </div>
+</div>
+</section>
+
+<!-- Self-introductin part 2 -->
+<section id = "self-introduction-2">
+<div class = "about">
+  <h3> ME AS AN INDEPENDENT DEVELOPER </h3>
+  <p> I have been actively working on my own projects outside my classrooms and have published two of my games as an independent game developer (both as the programmer and the graphic designer). </p>
+  <p> Sometimes I release my games under my pseudo-name 吴德者Dino. </p>
+  <p> Besides programming, I also like to make art and music at my spare time. </p>
+  <p> I designed all characters/graphics/game scenes and composed most of the background music for my two games "Vincent's Amazing World of Scary Human Heads" and "Vincent: Phantom of the G4 (文森：G4人偶事件)."</p>
+</div>
+</section>
+
+<!-- Self-introductin part 3 -->
+<section id = "self-introduction-3">
+<div class = "about">
+  <h3> ME AS A RESEARCHER </h3>
+  <p> My research team SOCR (Statistics Online Computational Resource) designs and disseminates educational materials, web-services, and advanced methods/tools in probability, statistics, and machine learning. </p>
+  <p> This is a Faculty Research MDP team at the University of Michigan that will develop an enhanced analysis and visualization toolbox with an emphasis on "Big Data." </p>
+  <p> My current sub-team is "Data Analytics - MIMIC-III," with our focus on interrogating the MIMIC-III database, a large collection of ~43,000 critical care patients from an ICU in Boston, MA, by utilizing R/RStudio and machine learning models to digest the vital signs, laboratory results, free-text data and waveforms available in this unique dataset and predict clinical outcomes via statistical modeling tools. </p>
+</div>
+</section>
+
+<section id = "self-introduction">
+<div class = "about">
+  <h3> FUN FACTS </h3>
+  <p> I am fluent in both English and Mandarin; I also speak a bit Japanese. </p>
+  <p> My favorite Smash characters include Link, Lucina and Corrin, even though it would be Waluigi if he is in Smash. </p>
+  <p> My favorite character from my own Vincent series is surprisingly Victor, not Vincent. (who is also my Github profile pic!) </p>
+  <p> Please feel free to check out my games and projects (or maybe even my art and music!) and email me if you have any further questions. </p>
+</div>
+</section>
+
+<div id = "heads">
+  <img class = "head pcitures" src="img/Feature graphic head long.png" style = "width: 100%">
+</div>
+
+  </body>
+</html>
