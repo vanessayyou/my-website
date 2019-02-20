@@ -7,8 +7,6 @@
     <link href='https://fonts.googleapis.com/css?family=Oswald:500' rel='stylesheet' type='text/css'>
     <style type = "text/css">
 
-    /* font */
-
 
     .content {
       display: flex;
@@ -98,9 +96,58 @@
 
     }
 
-
+    /* head banner at the end of the page */
     #heads {
       opacity: 0.9;
+    }
+
+    /* hover image */
+    .container {
+      position: relative;
+      width: 100%;
+    }
+
+    .header-picture {
+      display: block;
+      width: 100%;
+      height: auto;
+    }
+    .overlay {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      height: 100%;
+      width: 100%;
+      opacity: 0;
+      transition: 0.6s ease;
+      background-color: black;
+    }
+
+    .container:hover .overlay {
+      opacity: 0.7;
+    }
+
+    .container:hover .header-picture {
+      opacity:0.4;
+    }
+
+    .text {
+      color: white;
+      font-size: 40px;
+      font-family: Oswald;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+      text-align: center;
+    }
+
+    .hover-description {
+      font-size: 20px;
     }
 
 
@@ -125,13 +172,18 @@
   <li><a href="#contact" class="w3-button w3-bar-item">Contact</a></li>
 </ul>
 
-<!-- introduction -->
-<section>
-</section>
-
 <!-- Header Picture -->
 <section>
-  <img class = "header picture" src="../img/Feature graphic.png" style="width:100%">
+<div class = "container">
+  <img class = "header-picture" src="../img/Feature graphic.png" style="width:100%">
+  <div class = "overlay">
+    <div class = "text">
+    <p>"Vincent's Amazing World of Scary Human Heads"</p>
+    <p class = "hover-description"> My first published game; available on Apple Store, Google Play and Taptap </p>
+    <p class = "hover-description"> Read more about my games and projects <a href = "games.html"> HERE </a> </p>
+    </div>
+  </div>
+</div>
 </section>
 
 <!-- Self-introduction -->
